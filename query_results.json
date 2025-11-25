@@ -1,0 +1,23 @@
+[
+  {
+    "filename": "Blaming embeddings is blaming the entire AI game.md",
+    "chunk_index": 7,
+    "token_count": 149,
+    "text": "## Conclusions\n\nBlaming embeddings is like blaming the alphabet for poorly written prose. Embeddings are the fundamental building blocks for language understanding in modern AI .\n\nCosine similarity, while not the only tool, is a powerful and practical method to find relevant and semantic accurate information created by these embeddings. And by the way, it is the way every recommendation system works!\n\nRAG, in turn, makes use of both to feed LLMs with knowledge beyond their training data, making them significantly more potent and reliable.\n\nTo underrate these components is to misunderstand the elegant and deeply interconnected architecture that allows Generative AI to perform its almost magical feats.\n\nThey are not an optional extra: they are the core machinery that drives the current AI revolution.",
+    "_score_bm25": 4.360176998098822
+  },
+  {
+    "filename": "Blaming embeddings is blaming the entire AI game.md",
+    "chunk_index": 0,
+    "token_count": 250,
+    "text": "## Blaming embeddings is blaming the entire AI game\n\nWho keeps underrating the power of cosine similarity and RAG missed the core of Generative AI as a whole.\n\n8 min read ·\n\n<!-- image -->\n\nMay 20, 2025\n\nFabio Matricardi\n\nimage by the author and Flux - using this method\n\n<!-- image -->\n\nAnyone dissing embeddings is missing the point of AI itself.\n\n## Trashing embeddings &amp; RAG is like saying your engine doesn't need oil\n\nA curious narrative is gaining traction in some corners of the AI discussion: a downplaying of fundamental components like embeddings, cosine similarity, and even the well-established Retrieval Augmented Generation (RAG) architecture.\n\nSome suggest that the in-context learning (ICL) capabilities of modern Large Language Models (LLMs) are so potent that these other elements are becoming secondary, even unimportant.\n\n## This perspective, however, is so damn wrong!\n\nIt misunderstands how these technologies interlink and, at sadly, how Generative AI models like GPT perceive and process information at their very core.\n\nTo dismiss these elements is to miss the Foundation of the entire AI game.\n\nimage by the author and Flux - using this method\n\n<!-- image -->",
+    "_score_bm25": 4.320150545124684
+  },
+  {
+    "filename": "AI Just Hit a Wall. This Model Smashed Right Through It.md",
+    "chunk_index": 2,
+    "token_count": 419,
+    "text": "## So, How Does It Actually 'Think'?\n\nThis is where it gets really cool. The reason most AIs fail at deep reasoning is because of a fundamental architectural flaw.\n\n- Standard Transformers (like GPT): They have a fixed number of layers. That means they have a fixed 'computational depth.' It's like having a brain that can only perform, say, 48 steps of thinking before it has to give an answer. For complex problems, that's just not enough.\n- Recurrent Neural Networks (RNNs): These models can theoretically 'think' for longer, but they suffer from what I call 'running out of steam.' After a few cycles of thinking, their internal state converges and they basically stop making meaningful progress.\n\nHRM solves this with something the paper calls 'hierarchical convergence.'\n\nLet me show you another image from the paper that explains this better than I ever could.\n\n<!-- image -->\n\nOkay, don't get scared by the 'forward residuals' label. All it means is 'how much is the model's 'thought process' changing at each step?'\n\n- The Middle Graph (Recurrent Neural Net): See how the line quickly drops to zero? That's the model 'running out of steam.' It converges and stops thinking. Game over.\n- The Right Graph (Deep Neural Net): This shows 'vanishing gradients.' The thinking happens at the beginning and end, but the middle layers aren't doing much. It's shallow.\n- The Left Graph (HRM): Now look at this beauty. The blue line (the High-level 'CEO') steadily converges, keeping the overall strategy in mind. But the orange line (the Low-level 'expert team') works intensely, converges on a subproblem, and then spikes back up. That spike is the CEO giving it a new task! Means, the model is taking a breath and starting a new phase of intense thinking, over and over again, until the problem is solved.\n\nThis is why HRM can think so 'deeply.' It never runs out of steam.",
+    "_score_bm25": 3.172953347642266
+  }
+]
