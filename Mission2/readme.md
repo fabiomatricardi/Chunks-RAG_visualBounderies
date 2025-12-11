@@ -10,6 +10,8 @@ RAGworkLIB.py will contain all the helper functions, organized by TAB
 
 RAGwork_Mission2.py will have all the GUI logic
 
+<img src='https://github.com/fabiomatricardi/Chunks-RAG_visualBounderies/raw/main/Mission2/TAB2_gif.gif' width=900>
+
 ### Requirements
 ```bash
 pip install openai "docling[rapidocr]" requests gradio tiktoken
